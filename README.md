@@ -5,6 +5,7 @@
     • PC Ubuntu(version > 16.04)
     • ESP32 Board(WROOM-32)
     • Arduino IDE(Latest version)
+    
  Steps:
     • Install Arduino IDE if not installed.
     • sudo snap install arduino
