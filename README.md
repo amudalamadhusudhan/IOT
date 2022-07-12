@@ -23,3 +23,5 @@
     • Then next select the COM port of your ESP32 in Tools-> ports.
     • This completes the ESP32 configuration with Arduino IDE.
     • Now you can write your programs, compile, and flash on ESP32 board through Arduino IDE.
+
+![WhatsApp Image 2022-07-10 at 6 04 29 PM](https://user-images.githubusercontent.com/105910992/178448443-72730d8e-b2e1-4762-b824-2ca43ea28f34.jpeg)
