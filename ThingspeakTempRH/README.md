@@ -11,4 +11,7 @@ Software:
     8. Start measuring the values of the sensor.
     9. Use Appropriate formula for the calculating the distance 
     10. Upload the measured distance on Thingspeak.
-    ![Screenshot from 2022-07-13 14-03-21](https://user-images.githubusercontent.com/105910992/178688772-94b41bfb-08ef-4a0d-a928-888adc328530.png)
+    
+    ![Screenshot from 2022-07-13 14-03-21](https://user-images.githubusercontent.com/105910992/178688879-771a83ad-f4f1-430e-bd92-d66fb5755903.png)
+
+    
