@@ -11,12 +11,12 @@
 
 ```bash
 sudo apt install mosquitto
-sudo apt-get install mosquitto-clients # Optional
+sudo apt-get install mosquitto-clients 
 ```
 - Start the brocker
 
 ```bash 
-sudo systemctl enable mosquitto.services
+sudo systemctl enable mosquitto.service
 mosquitto -c user_file.txt -v 
 ```
 
