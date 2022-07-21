@@ -43,14 +43,14 @@ sudo apt-get install mosquitto-clients
 ```bash 
 sudo systemctl status mosquitto.service
 sudo systemctl stop mosquitto.service
-In home of the teminal create a filename.txt using floowing data
+In home of the teminal create a filename.txt using following data
              listener 1883
              allow_anonymous true
 mosquitto -c filename.txt -v 
 ```
 
 ### 2. MQTT Publisher
-- On Raspberry Pi 
+ - On other Raspberry Pi or Ubuntu terminals
 - Command to install mosquitto 
 
 ```bash
@@ -66,11 +66,6 @@ mosquitto_pub -h ipaddress -t test -m "Hello from Raspberry Pi" # ip of brocker
 ### 3. MQTT Subscriber
 - On other Raspberry Pi or Ubuntu terminals
 - Command to install mosquitto 
-
-```bash
-sudo apt-get install mosquitto
-sudo apt-get install mosquitto-clients
-```
 - Now start receiving data 
 
 ```bash
@@ -83,7 +78,7 @@ mosquitto_sub -h ipaddress -t test # ip of Brocker
   - Address of brocker: 192.168.43.75 (ip adress)
   - Port number: 1883 or 8883
   - Client Id: MqttDashboard-1341078
-  - topic: test
+  - topic: test 
 
 - Save all these details
 - Now we have enter topic name: test
